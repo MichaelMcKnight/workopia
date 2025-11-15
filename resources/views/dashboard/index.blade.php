@@ -8,7 +8,7 @@
                 @if($user->avatar)
                     <img src="{{asset('storage/'.$user->avatar)}}" alt="{{$user->name}}" class="w-32 h-32 object-cover rounded-full">
                 @else
-                    <img src="{{asset('storage/avatars/avatar-default.jpeg')}}" alt="{{$user->name}}" class="w-32 h-32 object-cover rounded-full">
+                    <img src="{{asset('storage/avatars/avatar-001.jpeg')}}" alt="{{$user->name}}" class="w-32 h-32 object-cover rounded-full">
                 @endif
             </div>
 
